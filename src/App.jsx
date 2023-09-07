@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Counter from './counter'
+import Team from './players_add_remove'
 
 function App() {
   //return er baire fun
@@ -22,6 +23,7 @@ function App() {
     <>
 
       <h3> React core concepts 2</h3>
+      <Team></Team>
 
       <Counter></Counter>
 
