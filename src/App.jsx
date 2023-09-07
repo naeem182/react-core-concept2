@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Counter from './counter'
 
 function App() {
   //return er baire fun
@@ -21,6 +22,9 @@ function App() {
     <>
 
       <h3> React core concepts 2</h3>
+
+      <Counter></Counter>
+
       {/* By function */}
       <button onClick={handleClick}>click me</button>
       {/* By arrow function */}
